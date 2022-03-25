@@ -1,0 +1,23 @@
+.bg-wallet {
+    background: linear-gradient(rgba(0, 64, 98, 0.6),rgba(0, 64, 98, 0.6)), url('/assets/media/bg/bg-9.jpg');
+    background-size: cover;
+}
+
+.modal-ica-compare {
+    padding: 0 !important; /* override inline padding-right added from js */
+  }
+  .modal-ica-compare .modal-dialog {
+    width: 100%;
+    max-width: none;
+    height: 100%;
+    margin: 0;
+  }
+  .modal-ica-compare .modal-content {
+    height: 100%;
+    border: 0;
+    border-radius: 0;
+  }
+  .modal-ica-compare .modal-body {
+    min-height: 80%;
+    overflow-y: auto;
+  }
